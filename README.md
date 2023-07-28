@@ -4,6 +4,10 @@ This repository contains Terraform templates for various cloud infrastructure ta
 
 ## Repository Contents
 
+### Automations
+
+#### On-Off
+
 - `TF_Create_Role_lambda_On_Off_ec2.tf`: This Terraform script creates an IAM role with the necessary policy to allow an AWS Lambda function to trigger from a scheduled rule in the EventBridge Scheduler to start and stop EC2 instances.
 
 ## Important Note
